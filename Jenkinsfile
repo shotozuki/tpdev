@@ -14,7 +14,7 @@ pipeline {
         stage('Clone repo') {
             steps {
                 
-                git branch: 'devops', url: 'https://github.com/shotozuki/tpdev'
+                git branch: 'devops', url: 'https://github.com/shotozuki/tpdev.git'
             }
         }
 
